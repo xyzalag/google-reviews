@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT&amp;subset=latin-ext" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <title>Google Reviews</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="title">Reviews Project</h1>
+        </header>
+        <section class="google__reviews">
+            <h1 class="section__title">Google API Reviews</h1>
+               <div class="review__container">
+            </div>
+        </section>
+
+        <section class="local__reviews">
+            <h1 class="section__title">Locally Sourced Reviews</h1>
+               <div class="local__reviews__container">
+            </div>
+        </section>
+
+        <section class="reviews__form">
+            <h1 class="section__title">Reviews Form</h1>
+
+            <form name="myForm" id = "formElement" method="POST">
+                <label for="name">Your Name: </label>
+                <input type="text" id="form__name" placeholder="Name" required>
+                <label for="message">Tell us what you think!</label>
+                <textarea class="" id="form__text" name="message" placeholder="Tell us what you think:)" required></textarea>
+                <button type="button" class="form__button">Submit</button>
+                <p id="demo"></p>
+            </form>
+        </section>
+        <script src="bundle.js"></script>
+    </body>
+</html>

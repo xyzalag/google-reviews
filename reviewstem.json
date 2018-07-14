@@ -1,0 +1,53 @@
+{
+   "html_attributions" : [],
+   "result" : {
+      "reviews" : [
+         {
+            "author_name" : "Adrian Marsowicz",
+            "author_url" : "https://www.google.com/maps/contrib/108154242146244234921/reviews",
+            "language" : "pl",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/-sZX60Xr9ktM/AAAAAAAAAAI/AAAAAAAAAAA/AAnnY7rB2upUf9nxujw5Nm26hyBdvehXJQ/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "4 tygodnie temu",
+            "text" : "Bardzo się cieszę, że trafiłem do doktor Reginy. Jestem zadowolony z diagnostyki i leczenia. Jestem mile zaskoczony tym, że Pani Doktor poświęciła mi dość dużo czasu na opisanie planu leczenia. Polecam"
+         },
+         {
+            "author_name" : "klaudia góral",
+            "author_url" : "https://www.google.com/maps/contrib/105673076055051321109/reviews",
+            "language" : "pl",
+            "profile_photo_url" : "https://lh5.googleusercontent.com/-n-8BNUwZAAA/AAAAAAAAAAI/AAAAAAAAAAA/AAnnY7paHQWD8MFmGk1Uo1HqO1hn2ovYWA/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "miesiąc temu",
+            "text" : "Bardzo miła Pani doktor. Jestem zadowolona z przebiegu leczenia i mogę polecić to miejsce każdemu."
+         },
+         {
+            "author_name" : "Ana",
+            "author_url" : "https://www.google.com/maps/contrib/107699260580938945714/reviews",
+            "language" : "pl",
+            "profile_photo_url" : "https://lh5.googleusercontent.com/-29BtsL4_TLA/AAAAAAAAAAI/AAAAAAAAAGs/DUtSyHVaVto/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "tydzień temu",
+            "text" : "Fantastyczna Pani doktor. Bezbolesne zabiegi i bardzo profesjonalne podejście. Miły personel. Polecam."
+         },
+         {
+            "author_name" : "Joanna M",
+            "author_url" : "https://www.google.com/maps/contrib/106356384080165328693/reviews",
+            "language" : "pl",
+            "profile_photo_url" : "https://lh6.googleusercontent.com/-67WzNTjRaB0/AAAAAAAAAAI/AAAAAAAAAsc/VCyWLNK3txU/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "tydzień temu",
+            "text" : "Bezbolesne leczenie i bardzo mila pani doktor. Serdecznie polecam!"
+         },
+         {
+            "author_name" : "Klaudia Jurkiewicz",
+            "author_url" : "https://www.google.com/maps/contrib/105944171954846105494/reviews",
+            "language" : "pl",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/-rrbBhcVT840/AAAAAAAAAAI/AAAAAAAAAbI/3b8dqLuV-0U/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "miesiąc temu",
+            "text" : "Bardzo profesjonalny gabinet, przemiła obsługa - jak najbardziej polecam!"
+         }
+      ]
+   },
+   "status" : "OK"
+}

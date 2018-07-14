@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	top:0;
+	position: relative;
+}
+
+header {
+	background: #12c2e9;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
+	background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
+	margin-bottom: 100px;
+	height: 300px;
+	position: relative;
+}
+
+.title {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 70px;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.section__title {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 50px;
+	color: #f67280; 
+	background: -webkit-linear-gradient(#f64f59, #c471ed, #12c2e9); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 70px;
+}
+
+.review__container {
+	text-align: center;
+	width: 85%;
+	margin: 0 auto;
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+	border: 10px solid #f67280;
+	padding: 50px;
+	margin-bottom: 100px;
+
+/* 	align-items: center;
+	justify-content: center; */
+}
+
+.local__reviews__container {
+	text-align: center;
+	width: 85%;
+	margin: 0 auto;
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+	border: 10px solid #c471ed;
+	padding: 50px;
+	margin-bottom: 100px;
+}
+
+.review__item {
+	flex: 1;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 10px;
+	color: #35477d;
+	-webkit-box-shadow: 0px 3px 10px rgba(0,0,0,0.2); 
+    -moz-box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+	box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+}
+
+.review__text {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 10px;
+	font-family: 'Old Standard TT', serif;
+}
+
+.review__author {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #c471ed;
+}
+
+.review__icon {
+	font-size: 30px;
+	display: inline;
+	color: #f67280;
+}
+
+.review__img {
+	display: block;
+	margin: 10px auto;
+	width: 50px;
+	height: 50px;
+}
+

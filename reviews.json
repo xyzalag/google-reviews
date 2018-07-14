@@ -1,0 +1,37 @@
+{
+   "result" : {
+      "reviews" : [
+         {
+            "author_name" : "John Doe",
+            "profile_photo_url" : "person.png",
+            "rating" : 5,
+            "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+         },
+         {
+            "author_name" : "Jane Doe",
+            "profile_photo_url" : "person.png",
+            "rating" : 4,
+            "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+         },
+         {
+            "author_name" : "Chris",
+            "profile_photo_url" : "person.png",
+            "rating" : 5,
+            "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit!"
+         },
+         {
+            "author_name" : "Jake",
+            "profile_photo_url" : "person.png",
+            "rating" : 5,
+            "text" : "person.png"
+         },
+         {
+            "author_name" : "Mark",
+            "profile_photo_url" : "person.png",
+            "rating" : 4,
+            "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+         }
+      ]
+   },
+   "status" : "OK"
+}
