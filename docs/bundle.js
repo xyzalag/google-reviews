@@ -1,6 +1,8 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 
 },{}],2:[function(require,module,exports){
+var fs = require('fs');
+
 var googleAPI = "https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJDUhcRqKVFkcRBFG3CKyWqrM&fields=review&key=AIzaSyCMPw99oS6ha9M4ufOSp0tcA450Qd7sbNk";
 var localReviews = "reviews.json";
 
@@ -67,9 +69,11 @@ function buildUI(dataArray, parentElement) {
 1. After clicking the submit button - add event listener function +
 2. Select input fields and retrieve their value +
 3. Store those value in a variables +
-4. Create object for a submitted review
+4. Create object for a submitted review+
 5. Stringify object to JSON
 6. Write object to the reviews.json file
+
+!-- CSS & JS rating ! - stars
 */
 
 document.querySelector('.form__button').addEventListener('click', function() {
@@ -84,7 +88,7 @@ document.querySelector('.form__button').addEventListener('click', function() {
 	var newReviewJSON = JSON.stringify(newReview);  
 	console.log(newReviewJSON);
 
-	var fs = require("fs");
+	
 	fs.writeFile('form-reviews.json', newReviewJSON, finished);
 
     function finished(err)

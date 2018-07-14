@@ -1,3 +1,5 @@
+//var fs = require('fs');
+
 var googleAPI = "https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJDUhcRqKVFkcRBFG3CKyWqrM&fields=review&key=AIzaSyCMPw99oS6ha9M4ufOSp0tcA450Qd7sbNk";
 var localReviews = "reviews.json";
 
@@ -71,25 +73,50 @@ function buildUI(dataArray, parentElement) {
 !-- CSS & JS rating ! - stars
 */
 
+function sendJSON() {
+	var requestNew = new XMLHttpRequest();
+	requestNew.open('POST', 'form-reviews.json', true);
+	requestNew.setRequestHeader("Content-type", "application/json");
+
+	requestNew.onload = function() {
+	  if (requestNew.status >= 200 && requestNew.status < 400) {
+	  	var json = JSON.parse(requestNew.responseText);
+        console.log(json.email + ", " + json.name)
+	  } else {
+	    console.log('Target server returned an error');
+	  }
+	};
+	requestNew.onerror = function() {
+	  console.log('Connection error');
+	};
+
+	var dataNew= JSON.stringify({"email":"tomb@raider.com","name":"LaraCroft"});
+	requestNew.send(dataNew);
+};
+
 document.querySelector('.form__button').addEventListener('click', function() {
 	var name = document.getElementById('form__name').value;
 	var text = document.getElementById('form__text').value;
+
+	sendJSON();
+	//var requestNew = new XMLHttpRequest();
+
+	// xhr.open("POST", , true);
+	// newReview = {
+	// 	author_name: name,
+	// 	text: text
+	// };
+
+	// var newReviewJSON = JSON.stringify(newReview);  
+	// console.log(newReviewJSON);
+
 	
-	newReview = {
-		author_name: name,
-		text: text
-	};
+	// fs.writeFile('form-reviews.json', newReviewJSON, finished);
 
-	var newReviewJSON = JSON.stringify(newReview);  
-	console.log(newReviewJSON);
+ //    function finished(err)
+ //       { console.log('success');}
 
-	var fs = require("fs");
-	fs.writeFile('form-reviews.json', newReviewJSON, finished);
-
-    function finished(err)
-       { console.log('success');}
-
-    console.log("File has been created");
+ //    console.log("File has been created");
 });
 
 
