@@ -23,7 +23,7 @@
             "author_name" : "Jake",
             "profile_photo_url" : "person.png",
             "rating" : 4,
-            "text" : "person.png"
+            "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
          },
          {
             "author_name" : "Mark",
