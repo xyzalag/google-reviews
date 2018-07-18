@@ -22,13 +22,37 @@
          {
             "author_name" : "Jake",
             "profile_photo_url" : "person.png",
-            "rating" : 5,
+            "rating" : 4,
             "text" : "person.png"
          },
          {
             "author_name" : "Mark",
             "profile_photo_url" : "person.png",
             "rating" : 4,
+            "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+         },
+         {
+            "author_name" : "Bob",
+            "profile_photo_url" : "person.png",
+            "rating" : 5,
+            "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+         },
+                  {
+            "author_name" : "Thomas",
+            "profile_photo_url" : "person.png",
+            "rating" : 5,
+            "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+         },
+         {
+            "author_name" : "Emma",
+            "profile_photo_url" : "person.png",
+            "rating" : 4,
+            "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
+         },
+          {
+            "author_name" : "Ruby",
+            "profile_photo_url" : "person.png",
+            "rating" : 3,
             "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et."
          }
       ]
