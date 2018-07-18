@@ -1,5 +1,5 @@
 # Vanilla JS Reviews Project
-Explores the ways to implement reviews on the website. *AJAX' style, no libraries.*
+Explores ways to implement reviews on the website. *AJAX' style, no libraries.*
 ##### Fetch data from Google API
 Fetch reviews from Google Maps API, based on a place ID and API key in a JSON file and display them on the website. Unfortunately it is a limited option because Google allows us to fetch only five "the most helpfull" reviews (at least for free). 
 ##### Fetch data from local file
