@@ -4,8 +4,10 @@
 var googleAPI = "https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJDUhcRqKVFkcRBFG3CKyWqrM&fields=review&key=AIzaSyCMPw99oS6ha9M4ufOSp0tcA450Qd7sbNk";
 var localReviews = "reviews.json";
 
-loadJSON(googleAPI, 'google');
+
+//loadJSON(googleAPI, 'google');
 loadJSON(localReviews, 'local');
+
 
 function loadJSON(JSONsource, JSONtype) {
 	var request = new XMLHttpRequest();
@@ -14,6 +16,7 @@ function loadJSON(JSONsource, JSONtype) {
 	request.onload = function() {
 	  if (request.status >= 200 && request.status < 400) {
 	  	parseData(JSONtype, request);
+	  	hideLoader();
 	  } else {
 	    console.log('Target server returned an error');
 	  }
@@ -54,7 +57,6 @@ function buildUI(dataArray, parentElement) {
 		html = '<div class="review__item"><img src="%reviewImg%" class="review__img"/><p class="review__text">%reviewText%</p><h3 class="review__author">%reviewAuthorName%</h3>';
 
 		for (var j = 1; j <= reviewRating; j++) { // iterate over the rating value and add one star icon each time
-
 			iconHtml = '<i class="review__icon fa fa-star fa-2x" aria-hidden="true"></i>';
 			html += iconHtml;
 		};
@@ -70,9 +72,10 @@ function buildUI(dataArray, parentElement) {
 		} else {
 			counter += 1;
 		};
-
 	}
 };
+
+
 
 document.getElementById('more__btn').addEventListener('click', function() {
 

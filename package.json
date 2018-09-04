@@ -1,14 +1,24 @@
 {
-  "name": "google-reviews",
+  "name": "reviews-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "App.js",
+  "description": "Explores ways to implement reviews on the website. *AJAX' style, no libraries.*\r ##### Fetch data from Google API\r Fetch reviews from Google Maps API, based on a place ID and API key in a JSON file and display them on the website. Unfortunately it is a limited option because Google allows us to fetch only five \"the most helpfull\" reviews (at least for free). \r ##### Fetch data from local file\r Fetch reviews from local JSON file (stored on the server) and display them on the website. Since we're not limited here (you can store as many reviews as you want in your local file) click \"more\" button to show three new reviews. \r ##### Review Form \r The form collects rating, review and author's name. After submitting, a modal message pops up and the input is stored in an object, which is then stringified, encoded and saved in a JSON file on the server. The file is updated every time a new review is submitted. Implemented without libraries, entirely in JavaScript (and with a pinch of PHP for a server-side script).\r ## See here: http://xyzalag.ayz.pl/reviews-project/",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyzalag/reviews-project.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "browserify-fs": "^1.0.0"
-  }
+  "bugs": {
+    "url": "https://github.com/xyzalag/reviews-project/issues"
+  },
+  "homepage": "https://github.com/xyzalag/reviews-project#readme"
 }

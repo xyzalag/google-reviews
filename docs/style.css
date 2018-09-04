@@ -89,9 +89,9 @@ header {
     -moz-box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
 	box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
 	-webkit-animation-name: animatetop;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: .2s;
     animation-name: animatetop;
-    animation-duration: 1s;
+    animation-duration: .2s;
 }
 
 .review__text {
@@ -301,3 +301,21 @@ textarea {
     from {top:-300px; opacity:0}
     to {top:0; opacity:1}
 }
+
+/* LOADER */
+/* .loader {
+  margin: 5rem auto;
+  display: block;
+  text-align: center; }
+  .loader svg {
+    height: 5.5rem;
+    width: 5.5rem;
+    fill: #f67280;
+    transform-origin: 44% 50%;
+    animation: rotate 1.5s infinite linear; }
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0); }
+  100% {
+    transform: rotate(360deg); } } */

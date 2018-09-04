@@ -14,18 +14,18 @@
     <body>
         <header>
             <div class="header__content">
-                <p class="title">JavaSript <br> REVIEWS PROJECT</p>
+                <h1 class="title">REVIEWS PROJECT</h1>
             </div>
         </header>
         <section class="google__reviews">
-            <h1 class="section__title">Google API Reviews</h1>
-            <p class="project__description">Fetch reviews from Google Maps API, based on a place ID and API key in a JSON file and display them on the website. Unfortunately it is a limited option because Google allows us to fetch only five "the most helpfull" reviews (at least for free). </p>
+            <h2 class="section__title">Google API Reviews</h2>
+            <p class="project__description">Fetch reviews from Google Maps API as a JSON file and display them on the website. Unfortunately it is a limited option because Google allows us to fetch only five "the most helpfull" reviews (at least for free). Add your API key and a place ID to see the result</p>
                <div class="reviews__container" id="reviews__google">
-            </div>
+                </div>
         </section>
 
         <section class="local__reviews">
-            <h1 class="section__title">Locally Sourced Reviews</h1>
+            <h2 class="section__title">Locally Sourced Reviews</h2>
             <p class="project__description">Fetch reviews from local JSON file (stored on the server) and display them on the website. Since we're not limited here (you can store as many reviews as you want in your local file) click "more" button to show three new reviews. </p>
                <div class="reviews__container reviews__container--pink" id="reviews__local">
             </div>
@@ -34,7 +34,7 @@
         </section>
 
         <section class="reviews__form">
-            <h1 class="section__title">Reviews Form</h1>
+            <h2 class="section__title">Reviews Form</h2>
             <p class="project__description">This form collects rating, review and author's name. After submitting, a modal message pops up and the input is stored in an object, which is then stringified, encoded and saved in a JSON file on the server. The file is updated every time a new review is submitted. Implemented without libraries, entirely in JavaScript (and with a pinch of PHP for a server-side script).</p>
 
             <form class="form" name="myForm" id="formElement" method="POST">
@@ -60,7 +60,7 @@
         <div class="modal">
             <div class="modal__container">
                 <span class="close">&times;</span>
-                <h1 class="modal__title">THANK YOU FOR YOUR REVIEW!</h1>
+                <h2 class="modal__title">THANK YOU FOR YOUR REVIEW!</h2>
                 <i class="modal__icon fa fa-check-circle fa-5x" aria-hidden="true"></i>
             </div>
         </div>
